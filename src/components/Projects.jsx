@@ -1,7 +1,7 @@
 
 import React from "react";
 import vpn from '../assets/vpn.png'
-import copeople from '../assets/copeople.png'
+import foodie from '../assets/foodie.jpg'
 import Footer from './Footer'
 
 const ProjectCard = ({ image, title, description, git, technologies }) => {
@@ -11,7 +11,7 @@ const ProjectCard = ({ image, title, description, git, technologies }) => {
                 <img className="w-full rounded-t-lg h-auto object-cover " src={vpn} alt="" />
             </a>}
             {title=='Co People' && <a href="#">
-                <img className="w-full rounded-t-lg h-auto object-cover " src={copeople} alt="" />
+                <img className="w-full rounded-t-lg h-auto object-cover " src={foodie} alt="" />
             </a>}
             <div className="p-4 sm:p-6">
                 <a href="#">
@@ -63,13 +63,13 @@ export const project = [
         title:'Co People',
         description:'Co People is a dynamic web application I crafted using React, Node JS and React. This project is a modern and engaging social platform that allows users to connect, share content and interact seamlessly.',
         image: {vpn},
-        git:'https://github.com/nithingooud/CoPeople',
+        git:'https://github.com/santoshsaroj0032/Food-Delivery-Application',
         technologies:['MongoDb' ,'ReactJS' , 'NodeJS']
     },
     {
         title:'Snap Shot',
         description:'SnapShot is a stunning portfolio that I exclusively designed using React JS and tailwind CSS.This Project serves as a representation of a photographer’s work, highlighting their portfolio and services.',
-        image: {copeople},
+        image: {foodie},
         git:"https://github.com/nithingooud/vpn_studios",
         technologies:[ 'React JS', 'tailwind CSS']
     }
