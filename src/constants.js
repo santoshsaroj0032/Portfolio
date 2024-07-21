@@ -1,4 +1,3 @@
-
 export const services = [
     {
         title: "Technology Enthusiast",
@@ -18,10 +17,10 @@ export const name = 'Santosh';
 
 export const experiences = [
     {
-        'company': 'Inncircles Technologies',
-        'role': 'Product Developer',
+        'company': 'Bharat Intern',
+        'role': 'Full Stack Developer',
         'duration': 'April 2023 - Present',
-        'logo': 'https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/e5gz1yggdy8sc1umna3e',
+        'logo': 'https://www.google.com/bharat-intern-logo.png',  // Use a direct link to the image
         'points': [
             'Involved in dynamic contributions to web and mobile📱 development projects, actively influencing and improving project outcomes.',
             'Developed multiple shared components to simplify tasks for fellow developers, boosting efficiency and teamwork.',
@@ -41,9 +40,7 @@ export const experiences = [
         ],
         'url': 'https://www.att.com/',
     },
-]
-
-
+];
 
 export const EMAIL_JS_SERVICE_ID = 'service_90wb9t5';
 export const EMAIL_JS_TEMPLATE_ID = 'template_8l87rew';
