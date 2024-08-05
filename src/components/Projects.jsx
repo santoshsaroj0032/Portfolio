@@ -1,5 +1,5 @@
 import React from "react";
-import dance from '../assets/dance.jpg';
+import shortify from '../assets/shortify.png';
 import foodie from '../assets/foodie.jpg';
 import Footer from './Footer';
 
@@ -54,18 +54,18 @@ const Projects = () => {
 
 export const project = [
     {
-        title: 'Food Delivery Application',
-        description: 'Co People is a dynamic web application I crafted using React, Node JS and React. This project is a modern and engaging social platform that allows users to connect, share content and interact seamlessly.',
+        title: 'Foodie',
+        description: ' Foodie is a Food Delivery Application . The platform allows users to browse menus, place orders, track deliveries in real-time, and provide feedback. It also includes features such as user authentication, order history, ',
         image: foodie,
         git: 'https://github.com/santoshsaroj0032/Food-Delivery-Application',
-        technologies: ['MongoDb', 'ReactJS', 'NodeJS']
+        technologies: ['MongoDb', 'ReactJS', 'NodeJS','HTML','ExpressJs']
     },
     {
-        title: 'Dance Academy',
-        description: 'SnapShot is a stunning portfolio that I exclusively designed using React JS and tailwind CSS. This Project serves as a representation of a photographer’s work, highlighting their portfolio and services.',
-        image: dance,
-        git: "https://github.com/santoshsaroj0032/DanceAcademy",
-        technologies: ['NodeJs', 'ExpressJs', 'MongoDb', 'PUG', 'CSS']
+        title: 'Shortify',
+        description: 'Shortify is an efficient URL shortening service. This application allows users to shorten long URLs, making them easier to share and manage. It features a user-friendly interface, analytics tracking for each shortened URL, and the ability to customize URL aliases.',
+        image: shortify,
+        git: "https://github.com/santoshsaroj0032/Shortify",
+        technologies: ['NodeJs', 'ExpressJs', 'MongoDb', 'EJS', 'CSS']
     }
 ];
 

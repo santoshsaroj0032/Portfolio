@@ -22,23 +22,14 @@ export const experiences = [
         'duration': 'April 2023 - Present',
         'logo': 'https://www.google.com/bharat-intern-logo.png',  // Use a direct link to the image
         'points': [
-            'Involved in dynamic contributions to web and mobile📱 development projects, actively influencing and improving project outcomes.',
-            'Developed multiple shared components to simplify tasks for fellow developers, boosting efficiency and teamwork.',
-            'Enhanced product performance through significant contributions to backend development, optimizing essential components for improved efficiency 📈.',
-            'Implemented data security for the company’s product to provide role-based access control ⚙️.'
+            'Involved in dynamic contributions to web development projects, actively influencing and improving project outcomes. I collaborated with cross-functional teams to design and implement scalable and maintainable solutions, ensuring the delivery of high-quality products. My role required me to stay updated with the latest industry trends and technologies to incorporate best practices into our development process.',
+            'Developed multiple shared components to simplify tasks for fellow developers, boosting efficiency and teamwork. By creating reusable and modular components, I reduced redundancy and promoted a more streamlined development workflow. These components were documented and shared within the team, fostering a culture of knowledge sharing and continuous improvement.',
+            'Enhanced product performance through significant contributions to backend development, optimizing essential components for improved efficiency. I focused on database optimization, API performance, and server-side logic to ensure our applications could handle increasing loads and provide a smooth user experience. Performance monitoring tools were implemented to track and address potential bottlenecks proactively.',
+            'Implemented data security for the company’s product to provide role-based access control. I designed and implemented robust security measures to protect sensitive data and ensure that users had appropriate access based on their roles. This involved creating authentication and authorization mechanisms, as well as conducting regular security audits to identify and mitigate vulnerabilities.',
+            'Participated in code reviews and provided constructive feedback to peers, fostering a collaborative and learning-focused environment. I actively contributed to improving code quality and consistency across the team by adhering to coding standards and best practices.',
+            'Worked closely with the UI/UX team to translate design prototypes into fully functional web interfaces, ensuring a seamless and visually appealing user experience. My attention to detail and focus on responsive design helped create intuitive and accessible applications.'
         ],
-        'url': 'https://inncircles.com/#home',
-    },
-    {
-        'company': 'AT & T',
-        'role': 'Technical Intern',
-        'duration': 'Jan 2023 - March 2023',
-        'logo': 'https://www.att.com/ecms/dam/att/consumer/global/logos/att_globe_500x500.jpg',
-        'points': [
-            'Gained experience with Git version control contributing to the development and maintenance of code repositories.',
-            'Worked on the application dashboard, making it more user-friendly and improving its overall functionality📱.'
-        ],
-        'url': 'https://www.att.com/',
+        // 'url': 'https://inncircles.com/#home',
     },
 ];
 

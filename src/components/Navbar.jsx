@@ -27,7 +27,7 @@ const Navbar = () => {
           <Link to='/about' className="hover:text-gray-400">About</Link>
         </div>
         <div className="text-3xl sm:text-2xl font-extrabold font-serif">
-          <a href="/">Santosh Saroj</a>
+          <a href="/">Santosh's Portfolio</a>
         </div>
         <div className="hidden sm:flex space-x-4 items-center text-sm font-sans-serif font-medium">
           <Link to='/projects' className="hover:text-gray-400">Projects</Link>
